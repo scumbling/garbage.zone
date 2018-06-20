@@ -1,0 +1,54 @@
+body {
+  background: #ffe8ba;
+  background: -moz-linear-gradient(top, #ffe8ba 49%, #99ffc6 100%);
+  background: -webkit-linear-gradient(top, #ffe8ba 49%,#99ffc6 100%);
+  background: linear-gradient(to bottom, #ffe8ba 49%,#99ffc6 100%);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: 'Overpass Mono', monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+main > * {
+  margin: 5rem;
+}
+
+hr {
+  background-image: url('./garbage-min.jpg');
+  width: 50%;
+  height: 75px;
+  border: none;
+}
+
+.spotlight {
+  text-align: center;
+  max-width: 50%;
+
+  padding: 1rem;
+
+  background-color: white;
+  border-right: black solid 4px;
+  border-bottom: black solid 4px;
+}
+
+strong {
+  border-bottom: black dotted 2px;
+}
+
+@media screen and (max-width: 600px){
+  hr {
+    width: 100%;
+  }
+
+  .spotlight {
+    width: 100%;
+  }
+}
