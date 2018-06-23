@@ -22,7 +22,7 @@ main > * {
 }
 
 hr {
-  background-image: url('./garbage-min.jpg');
+  background-image: url('./garbage.jpg');
   width: 50%;
   height: 75px;
   border: none;
