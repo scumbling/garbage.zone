@@ -15,6 +15,8 @@ main {
   flex-direction: column;
 
   align-items: center;
+
+  text-align: center;
 }
 
 main > * {
@@ -30,7 +32,7 @@ hr {
 
 .spotlight {
   text-align: center;
-  max-width: 50%;
+  width: 50%;
 
   padding: 1rem;
 
@@ -43,12 +45,23 @@ strong {
   border-bottom: black dotted 2px;
 }
 
-@media screen and (max-width: 600px){
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px),
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)
+{
   hr {
     width: 100%;
   }
 
   .spotlight {
-    width: 100%;
+    width: 80%;
+  }
+
+  main {
+    margin-bottom: 10rem;
   }
 }
