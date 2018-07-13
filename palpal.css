@@ -30,6 +30,10 @@ hr {
   border: none;
 }
 
+.sat {
+  text-transform: uppercase;
+}
+
 .spotlight {
   text-align: center;
   width: 50%;
