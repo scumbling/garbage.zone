@@ -23,11 +23,9 @@ main > * {
   margin: 5rem;
 }
 
-hr {
-  background-image: url('./garbage.jpg');
-  width: 50%;
-  height: 75px;
-  border: none;
+.trash {
+  transform: rotate(90deg);
+  max-height: 50vh;
 }
 
 .sat {
