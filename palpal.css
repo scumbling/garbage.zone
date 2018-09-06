@@ -53,6 +53,12 @@ main > * {
   max-height: 200px;
 }
 
+.i-guess {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 strong {
   border-bottom: black dotted 2px;
 }
