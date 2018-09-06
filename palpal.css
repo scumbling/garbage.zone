@@ -79,5 +79,7 @@ and (-webkit-device-pixel-ratio : 3)
 
   .zine-images {
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 }
