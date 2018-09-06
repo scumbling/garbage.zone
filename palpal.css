@@ -43,6 +43,16 @@ main > * {
   border-bottom: black solid 4px;
 }
 
+.zine-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zine-images img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 strong {
   border-bottom: black dotted 2px;
 }
@@ -65,5 +75,9 @@ and (-webkit-device-pixel-ratio : 3)
 
   main {
     margin-bottom: 10rem;
+  }
+
+  .zine-images {
+    flex-direction: column;
   }
 }
