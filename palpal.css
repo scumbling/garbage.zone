@@ -23,7 +23,7 @@ main > * {
   margin: 5rem;
 }
 
-.trash {
+.feature {
   transform: rotate(90deg);
   max-height: 50vh;
 }
